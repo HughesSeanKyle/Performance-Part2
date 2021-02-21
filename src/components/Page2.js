@@ -18,7 +18,7 @@ const Page2 = ({ onRouteChange }) => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Learn React 1
+                      Learn React 2
                     </a>
                     <div>
                         <button onClick={() => onRouteChange('page1')}>Page 1</button>
