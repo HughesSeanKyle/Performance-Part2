@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  padding: 20px;
+  border: 2px solid blue;
+  margin: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  background: powderblue;
+  border-radius: 18%;
+}
+
+.disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+
+  /* Button disabled - CSS color class */
+  color: #c0c0c0;
+  background-color: #ffffff;
+  border: 2px solid grey;
+}
